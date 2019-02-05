@@ -1,0 +1,253 @@
+body{
+    font-size: 20px;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: WHITE
+}
+
+
+
+
+
+
+
+label{
+    font-size: 12px;
+    font-weight: 300;
+    color:#000;
+    margin: 8px;
+}
+
+span{
+    color:#f00;
+}
+
+select{
+    border-color: rgb(218, 214, 214);
+    width: 30%;
+    height: 2em;
+    border-width: 1.5px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+input{
+
+    width: 100%;
+    height: 1.1em;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-color: rgb(218, 214, 214);
+    
+}
+.input {
+
+    width: 40%;
+    height: 1.1em;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-color: rgb(218, 214, 214);
+}
+
+
+
+.content{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 45px;
+    border-color: rgb(251, 228, 9);
+    border-radius: 0px;
+    padding: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+
+}
+.inner{
+    margin: 0px ;
+    background-color: white;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 60%;
+    border-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+
+}
+    
+
+.button {
+    border-style: solid;
+    background-color: rgb(251, 228, 9);
+    height: 40 px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin: 20px 0 20px;
+    font-weight: 400;
+    padding: 5px 60px 5px 60px;
+    color:white;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: rgb(212, 199, 78);
+}
+
+.sumit{
+    width: auto;
+        border-style: solid;
+    background-color: rgb(0, 204, 255);
+    height: 50 px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 3px 25px 3px 25px;
+    color:white;
+    text-align: center;
+    margin: 0 5px 0 5px;
+
+    
+
+}
+
+.marginV-10{
+    margin: 10px 0 10px; 
+}
+.marginH-30{
+    margin: 0 0px 0 0px; 
+}
+ .sumit2{
+    background-color: navy;
+ }
+ .sumit3{
+    background-color: red;
+ }
+
+
+.sumit4{
+   background-color:rgba(12, 187, 27, 0.897);
+}
+
+.form-group {
+    margin:10px 0 14px 40px;
+}
+
+.form-group2{
+    margin:0px;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    padding-right: 5%
+    
+  }
+  
+  .right {
+    float: right;
+    width: 40%;
+    margin-right: 40px
+
+    
+  }
+
+  .dividerText{
+      font-size: 13px;    
+  }
+
+  .f-password{
+    font-size:small; 
+    float: right; 
+    margin-top: 25px; 
+    text-decoration: none;
+    color: #000;
+  }
+
+  .f-password:hover{
+text-decoration: underline;
+color: grey;
+  }
+
+  .f-password:active{
+      color: green;
+  }
+
+  .f-password:visited{
+    color: brown;
+}
+
+  
+   
+
+    /* <div style="width: 100%;">
+<div style="float: left; width: 20%;"><a href="https://www.facebook.com/dearblogger" target="_blank" rel="noopener"><img class="aligncenter" src="https://www.dearblogger.org/wp-content/uploads/2018/05/facebook-f.png" alt="" width="30" height="30" /></a></div>
+<div style="float: left; width: 20%;"><a href="https://plus.google.com/118234628825623039266" target="_blank" rel="noopener"><img class="aligncenter" src="https://www.dearblogger.org/wp-content/uploads/2018/05/google-plus-icon-300x300.png" alt="" width="30" height="30" /></a></div>
+<div style="float: left; width: 20%;">Another icon</div>
+<div style="float: left; width: 20%;">Another icon</div>
+<div style="float: left; width: 20%;">Another icon</div>
+<div style="clear: both;"></div>
+</div> */
+    
+
+
+
+
+    
+
+/* .form-header{
+    padding: 10px 0 10px 10px;
+    margin:0;
+    border-bottom-style: solid;
+    border-width: 3px;
+}
+
+
+}
+
+.form-group{
+    margin:10px 0 14px;
+}
+
+.underline{
+    border-bottom: solid 2px green;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.hint{
+    color: burlywood;
+    font-size: 10px;         
+}
+
+.sumit{
+    border-style: solid;
+    background-color: rgb(129, 194, 32);
+    margin: 9px 0px 9px 0px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 6px 0px 6px 0px;
+    color:white; */
+
+
